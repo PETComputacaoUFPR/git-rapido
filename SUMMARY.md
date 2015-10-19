@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Workflows
+* [Workflows](workflows.md)
 
