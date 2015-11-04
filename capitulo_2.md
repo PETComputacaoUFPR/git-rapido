@@ -15,12 +15,10 @@ O método mais comum para fazer esse controle é criar um diretório de backup. 
 
 O problema ao fazer isto é ter o *overhead* das cópias dos arquivos (ou do projeto todo) ocupando espaço e qualquer descuido pode causar erros. Quando é uma boa hora de se fazer uma cópia do arquivo? Depois de várias alterações ou depois de algumas poucas?
 
-
 ![Controle de Versão Local](https://git-scm.com/figures/18333fig0101-tn.png)
 ###### Fonte: Git-scm
 
 Para lidar com isso algumas pessoas desenvolveram sistemas locais de versionamento, como o rcs. Sistemas como esse salvavam os patches entre cada mudança e possibilitavam que qualquer arquivo pudesse ser recriado a partir de qualquer ponto na linha do tempo.
-
 
 ## Você não trabalha sozinho
 O grande problema com sistemas locais é: o que fazer quando tenho que trabalhar em conjunto com alguém? Claro que você pode ficar trocando patches com seus colegas como quem troca figurinhas do álbum da copa, mas pode ficar cansativo aplicar as modificações e resolver quaisquer diferenças entre o seu código e o dos outros. Aliás, este método não garante que o seu código seja **exatamente** igual ao dos outros.
@@ -40,3 +38,9 @@ Você pode ver que é muito mais fácil gerenciar as coisas assim, através de u
 Você pode ver que os CVCS tem uma grande falha: o servidor central. Qualquer erro ou mal funcionamento afeta o desenvolvimento do projeto. Se não existir um backup, qualquer problema com o disco do servidor pode danificar o repositório. Tudo, menos as cópias locais dos desenvolvedores é perdido.
 
 ## As maravilhas do mundo distribuído
+É aí que surgem os Sistemas de Controle de Versão Distribuídos (*Distributed Version Control System* ou DVCS). Em um DVCS, os clientes não só copiam as últimas versões do arquivo como copiam todo o histórico daquele arquivo, ou seja, os clientes são repositórios completos.
+
+![Controle de Versão Distribuído](https://git-scm.com/figures/18333fig0103-tn.png)
+###### Fonte: Git-scm
+
+Esses sistemas (como o Git e Mercurial) lidam muito bem com esse fato, permitindo que você colabore com diversas pessoas e equipes no desnvolvimento de de um projeto.
