@@ -9,4 +9,9 @@ Você pode versionar tudo. Tudo mesmo. Desde o seu [sistema de controle de vers�
 Existem diferentes formas de controle de versão e veremos agora um pouco sobre elas.
 
 ## Controle de versão: modo calouro
-O método mais comum para fazer esse controle é criar um diretório de backup.
+O método mais comum para fazer esse controle é criar um diretório de backup. Se você for esperto, até utiliza data e hora.
+
+O problema ao fazer isto é ter o *overhead* das cópias dos arquivos (ou do projeto todo) ocupando espaço e qualquer descuido pode causar erros. Quando é uma boa hora de se fazer uma cópia do arquivo? Depois de várias alterações ou depois de algumas poucas?
+
+Para lidar com isso algumas pessoas desenvolveram sistemas locais de versionamento, como o rcs. Sistemas como esse salvavam os patches entre cada mudança e possibilitavam que qualquer arquivo pudesse ser recriado a partir de qualquer ponto na linha do tempo.
+
