@@ -6,7 +6,7 @@ Em um belo dia, você acessa seu computador, navega até a pasta do seu atual pr
 * `projetoPerfeito-conflict-copy-joão.c`
 * `projetoPerfeito-conflict-copy-caio.c`
 
-Mas é claro! Alguém alterou o arquivo junto com você e gerou uma cópia de conflito. Agora basta fazer um diff dos arquivos, ver o que foi alterado e aplicar as alterações no arquivo correto.
+Mas é claro! Alguém alterou o arquivo junto com você e gerou uma cópia de conflito. Agora basta fazer um diff dos arquivos, ver o que foi alterado e aplicar as alterações no arquivo correto. Mas antes vocÊ verifica o seu e-mail para ver se ninguém mais da equipe mandou alterações do código ou já resoveu o problema que você vai trabalhar.
 
 E logo você se vê preso num ciclo vicioso com um CVH: Controlador de Versão Humano. Você se pega avisando sua equipe antes de alterar um arquivo e quando vai salvá-lo para evitar esses conflitos e criando pastas `V1`, `V2`, `V1-Corrigida`, `V2-Backup` para se organizar.
 
