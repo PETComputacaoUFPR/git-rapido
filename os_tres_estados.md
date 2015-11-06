@@ -38,3 +38,8 @@ O diretório de trabalho é um único *checkout* de uma versão do projeto. Este
 A área de preparação é um simples arquivo, geralmente contido no seu diretório Git, que armazena informações sobre o que irá em seu próximo commit. É bastante conhecido como índice (index), mas está se tornando padrão chamá-lo de área de preparação.
 
 ![Três estados do Git](https://git-scm.com/figures/18333fig0106-tn.png)
+
+## Workflow Básico
+1. Você modifica arquivos no seu diretório de trabalho
+2. Você seleciona arquivos, adicionando as versões atuais para a área de preparação.
+3. Você faz um *commit*, que leva os arquivos como eles estão na sua área de preparação e os armazena permanentemente no seu repositório Git.
