@@ -5,5 +5,6 @@
 * [Vamos as apresentações: CVS, Leitor; Leitor, CVS](capitulo_2.md)
 * [Qual CVS escolher?](capitulo_3.md)
 * [Mas o que é esse tal de Git?](mas_o_que_e_esse_tal_de_git.md)
+   * Os Três Estados
 * [Workflows](workflows.md)
 
