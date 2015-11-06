@@ -33,3 +33,4 @@ Foram com esses objetivos em mente que se fez o Git.
 
 ### Glossário: Branches?
 Falaremos sobre branches num capítulo específico.
+
