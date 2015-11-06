@@ -1,4 +1,4 @@
-# Qual escolher?
+# Qual CVS escolher?
 ###### Obviamente pelo título da apostila, nós vamos usar Git.
 
 
