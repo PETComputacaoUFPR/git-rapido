@@ -13,5 +13,3 @@ A maioria das ações no Git apenas acrescenta dados à base. Assim, quase tudo 
 Tudo o que o Git armazena é identificado por um checksum. Esse checksum é calculado antes que seja armazenado e existem um para cada arquivo e *commit*. Com isso é impossível mudar o conteúdo de algum arquivo sem que o Git saiba.
 
 O checksum utilizado é uma hash SHA-1, uma string de 40 caracteres composta de caracteres hexadecimais calculado a partir do conteúdo de um arquivo ou diretório.
-
-### Três estados
