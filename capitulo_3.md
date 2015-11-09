@@ -1,8 +1,8 @@
-# Qual CVS escolher?
+# Qual VCS escolher?
 ###### Obviamente pelo título da apostila, nós vamos usar Git.
 
 
-Você com certeza está empolgado para usar um CVS, mas quando? Aqui está uma lista de situações onde ele pode ser útil:
+Você com certeza está empolgado para usar um VCS, mas quando? Aqui está uma lista de situações onde ele pode ser útil:
 
 * Use no desenvolvimento de código
 * Use na manutenção de configurações
