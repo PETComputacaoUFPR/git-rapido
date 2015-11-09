@@ -7,6 +7,6 @@
 * [Mas o que é esse tal de Git?](mas_o_que_e_esse_tal_de_git.md)
    * [Os Três Estados](os_tres_estados.md)
 * [Mãos na massa!](maos_na_massa.md)
-   * Sua primeira vez
+   * [Sua primeira vez](sua_primeira_vez.md)
 * [Workflows](workflows.md)
 
