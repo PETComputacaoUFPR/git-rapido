@@ -25,3 +25,11 @@ Para ver suas configurações utilize o comando `git config --list`.
 O comando `git config` lida com as suas configuraçãos do git em nível de repositório, global e de sistema.
 
 Se você utilziar o comando sem nenhuma flag, estas configurações serão salvas apenas para o repositório. Com a flag `--global`, as configurações são salvas para todo o usuário (no arquivo .gitconfig, na sua pasta home). A flag `--system` salva as configurações para todos os usuários da máquina.
+
+### Obtendo ajuda
+```bash
+git help <comando>
+git <comando> --help
+man git-<comando>
+```
+
