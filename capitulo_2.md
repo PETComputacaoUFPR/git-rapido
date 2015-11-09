@@ -23,7 +23,7 @@ Para lidar com isso algumas pessoas desenvolveram sistemas locais de versionamen
 ## Você não trabalha sozinho
 O grande problema com sistemas locais é: o que fazer quando tenho que trabalhar em conjunto com alguém? Claro que você pode ficar trocando patches com seus colegas como quem troca figurinhas do álbum da copa, mas pode ficar cansativo aplicar as modificações e resolver quaisquer diferenças entre o seu código e o dos outros. Aliás, este método não garante que o seu código seja **exatamente** igual ao dos outros.
 
-Bem, para trabalhar em equipe, você vai precisar de uma referência para o seu projeto. Essa referência é o servidor central de um Sistema de Controle de Versão Centralizado (ou *Centralized Version Control System*, CVCS). CVCS tem um único servidor central com todos os arquivos versionados que podem ser resgatados (através de um *checkout*) pelos clientes. O Subversion e o CVS são um exemplo disso.
+Bem, para trabalhar em equipe, você vai precisar de uma referência para o seu projeto. Essa referência pode ser o servidor central de um Sistema de Controle de Versão Centralizado (ou *Centralized Version Control System*, CVCS). O CVCS tem um único servidor central com todos os arquivos versionados que podem ser resgatados (através de um *checkout*) pelos clientes. O [Subversion](https://subversion.apache.org/) e o [CVS](http://www.nongnu.org/cvs/) são um exemplo disso.
 
 ![Controle de Versão Centralizado](https://git-scm.com/figures/18333fig0102-tn.png)
 ###### Fonte: Git-scm
@@ -38,9 +38,9 @@ Você pode ver que é muito mais fácil gerenciar as coisas assim, através de u
 Você pode ver que os CVCS tem uma grande falha: o servidor central. Qualquer erro ou mal funcionamento afeta o desenvolvimento do projeto. Se não existir um backup, qualquer problema com o disco do servidor pode danificar o repositório. Tudo, menos as cópias locais dos desenvolvedores é perdido.
 
 ## As maravilhas do mundo distribuído
-É aí que surgem os Sistemas de Controle de Versão Distribuídos (*Distributed Version Control System* ou DVCS). Em um DVCS, os clientes não só copiam as últimas versões do arquivo como copiam todo o histórico daquele arquivo, ou seja, os clientes são repositórios completos.
+É aí que surgem os Sistemas de Controle de Versão Distribuídos (*Distributed Version Control System* ou DVCS). Em um DVCS, os clientes não só copiam as últimas versões do arquivo como copiam todo o histórico daquele arquivo, ou seja, os clientes são repositórios completos e se o servidor central é só recuperar os arquivos com um dos desenvolvedores.
 
 ![Controle de Versão Distribuído](https://git-scm.com/figures/18333fig0103-tn.png)
 ###### Fonte: Git-scm
 
-Esses sistemas (como o Git e Mercurial) lidam muito bem com esse fato, permitindo que você colabore com diversas pessoas e equipes no desnvolvimento de de um projeto.
+Esses sistemas (como o [Git](https://git-scm.com/) e [Mercurial](https://www.mercurial-scm.org/) lidam muito bem com esse fato, permitindo que você colabore com diversas pessoas e equipes no desnvolvimento de de um projeto.
