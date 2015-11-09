@@ -4,9 +4,9 @@ Feitas as apresentações você deve estar se perguntando: quem é você, Sistem
 
 De maneira simples, o controle de versão é uma ferramenta que registra as alterações feitas em um documento, arquivo ou conjunto de arquivos ao longo do tempo para que você possa recuperar versões específicas.
 
-Você pode versionar tudo. Tudo mesmo. Desde o seu [sistema de controle de versão](https://github.com/git/git), as suas [resoluções do ano](https://github.com/una/personal-goals), os [problemas da sua casa](https://github.com/hostyle/house-problems/issues?q=is%3Aissue) e outras coisas como o código fonte do seu projeto, o [design da sua empresa](https://github.com/google/material-design-lite) e até mesmo [essa apostila](https://github.com/PETComputacaoUFPR/git-rapido).
+Você pode versionar tudo. Tudo mesmo. Desde o seu próprio [sistema de controle de versão](https://github.com/git/git), as suas [resoluções do ano](https://github.com/una/personal-goals), os [problemas da sua casa](https://github.com/hostyle/house-problems/issues?q=is%3Aissue) e outras coisas como o código fonte do seu projeto, o [design da sua empresa](https://github.com/google/material-design-lite) e até mesmo [essa apostila](https://github.com/PETComputacaoUFPR/git-rapido).
 
-Ao longo da apostila, iremos falar bastante sobre software e código fonte sob CVS, mas tenha em mente que você pode utilzar para várias outras coisas.
+Ao longo da apostila, iremos falar bastante sobre software e código fonte sob VCS****, mas tenha em mente que você pode utilzar para várias outras coisas.
 
 Existem diferentes formas de controle de versão e veremos agora um pouco sobre elas.
 
@@ -18,7 +18,7 @@ O problema ao fazer isto é ter o *overhead* das cópias dos arquivos (ou do pro
 ![Controle de Versão Local](https://git-scm.com/figures/18333fig0101-tn.png)
 ###### Fonte: Git-scm
 
-Para lidar com isso algumas pessoas desenvolveram sistemas locais de versionamento, como o rcs. Sistemas como esse salvavam os patches entre cada mudança e possibilitavam que qualquer arquivo pudesse ser recriado a partir de qualquer ponto na linha do tempo.
+Para lidar com isso algumas pessoas desenvolveram sistemas locais de versionamento, como o [rcs](https://www.gnu.org/software/rcs/). Sistemas como esse salvavam os patches entre cada mudança e possibilitavam que qualquer arquivo pudesse ser recriado a partir de qualquer ponto na linha do tempo.
 
 ## Você não trabalha sozinho
 O grande problema com sistemas locais é: o que fazer quando tenho que trabalhar em conjunto com alguém? Claro que você pode ficar trocando patches com seus colegas como quem troca figurinhas do álbum da copa, mas pode ficar cansativo aplicar as modificações e resolver quaisquer diferenças entre o seu código e o dos outros. Aliás, este método não garante que o seu código seja **exatamente** igual ao dos outros.
