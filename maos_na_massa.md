@@ -1,7 +1,7 @@
 # Mãos na massa!
 
 ### Instalando e configurando
-Instale o Git para a sua plataforma através do site: https://git-scm.com/downloads
+Descubra como  instalar o  Git para a sua plataforma através do site: https://git-scm.com/downloads
 
 Depois de instalar o git na sua máquina, abra o terminal e configure suas informações:
 
