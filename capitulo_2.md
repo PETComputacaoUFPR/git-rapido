@@ -10,7 +10,7 @@ Ao longo da apostila, iremos falar bastante sobre software e código fonte sob V
 
 Existem diferentes formas de controle de versão e veremos agora um pouco sobre elas.
 
-## Controle de versão: modo calouro
+## Controle de versão: modo secretária
 O método mais comum para fazer esse controle é criar um diretório de backup. Se você for esperto, utiliza data e hora.
 
 O problema ao fazer isto é ter o *overhead* das cópias dos arquivos (ou do projeto todo) ocupando espaço e qualquer descuido pode causar erros. Quando é uma boa hora de se fazer uma cópia do arquivo? Depois de várias alterações ou depois de algumas poucas?
