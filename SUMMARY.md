@@ -8,6 +8,5 @@
    * [Os Três Estados](os_tres_estados.md)
 * [Mãos na massa!](maos_na_massa.md)
    * Sua primeira vez
-   * Sua Primeira Vez
 * [Workflows](workflows.md)
 
