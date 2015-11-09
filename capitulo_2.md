@@ -6,7 +6,7 @@ De maneira simples, o controle de versão é uma ferramenta que registra as alte
 
 Você pode versionar tudo. Tudo mesmo. Desde o seu próprio [sistema de controle de versão](https://github.com/git/git), as suas [resoluções do ano](https://github.com/una/personal-goals), os [problemas da sua casa](https://github.com/hostyle/house-problems/issues?q=is%3Aissue) e outras coisas como o código fonte do seu projeto, o [design da sua empresa](https://github.com/google/material-design-lite) e até mesmo [essa apostila](https://github.com/PETComputacaoUFPR/git-rapido).
 
-Ao longo da apostila, iremos falar bastante sobre software e código fonte sob VCS****, mas tenha em mente que você pode utilzar para várias outras coisas.
+Ao longo da apostila, iremos falar bastante sobre software e código fonte sob VCS, mas tenha em mente que você pode utilzar para várias outras coisas.
 
 Existem diferentes formas de controle de versão e veremos agora um pouco sobre elas.
 
@@ -23,7 +23,7 @@ Para lidar com isso algumas pessoas desenvolveram sistemas locais de versionamen
 ## Você não trabalha sozinho
 O grande problema com sistemas locais é: o que fazer quando tenho que trabalhar em conjunto com alguém? Claro que você pode ficar trocando patches com seus colegas como quem troca figurinhas do álbum da copa, mas pode ficar cansativo aplicar as modificações e resolver quaisquer diferenças entre o seu código e o dos outros. Aliás, este método não garante que o seu código seja **exatamente** igual ao dos outros.
 
-Bem, para trabalhar em equipe, você vai precisar de uma referência para o seu projeto. Essa referência pode ser o servidor central de um Sistema de Controle de Versão Centralizado (ou *Centralized Version Control System*, CVCS). O CVCS tem um único servidor central com todos os arquivos versionados que podem ser resgatados (através de um *checkout*) pelos clientes. O [Subversion](https://subversion.apache.org/) e o [CVS](http://www.nongnu.org/cvs/) são um exemplo disso.
+Bem, para trabalhar em equipe, você vai precisar de uma referência para o seu projeto. Essa referência pode ser o servidor central de um Sistema de Controle de Versão Centralizado (ou *Centralized Version Control System*, CVCS). O CVCS tem um único servidor central com todos os arquivos versionados que podem ser resgatados (através de um *checkout*) pelos clientes. O [Subversion](https://subversion.apache.org/) e o [VCS](http://www.nongnu.org/VCS/) são um exemplo disso.
 
 ![Controle de Versão Centralizado](https://git-scm.com/figures/18333fig0102-tn.png)
 ###### Fonte: Git-scm
