@@ -6,6 +6,6 @@
 * [Qual CVS escolher?](capitulo_3.md)
 * [Mas o que é esse tal de Git?](mas_o_que_e_esse_tal_de_git.md)
    * [Os Três Estados](os_tres_estados.md)
-* Mãos na massa!
+* [Mãos na massa!](maos_na_massa.md)
 * [Workflows](workflows.md)
 
