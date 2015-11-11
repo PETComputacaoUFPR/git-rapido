@@ -31,3 +31,10 @@ Você pode clonar através de diferente protocolos:
   * Clona o repositório `velho` como `novo`
 * ssh: `git clone ssh://url.da.maquin/repositorio` OU `git clone usuario@maquina:/repositorio`
 * http(s): `git clone http(s)://url.com/repositorio`
+
+**Exemplo Prático!**
+
+Você pode clonar esta apostila com os seguintes comandos:
+
+* `git clone https://github.com/PETComputacaoUFPR/git-rapido.git`
+* `git clone git@github.com:PETComputacaoUFPR/git-rapido.git`
