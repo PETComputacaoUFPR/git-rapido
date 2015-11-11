@@ -30,4 +30,4 @@ Você pode clonar através de diferente protocolos:
 * Local: `git clone ~/velho ~/novo`
   * Clona o repositório `velho` como `novo`
 * ssh: `git clone ssh://url.da.maquin/repositorio` OU `git clone usuario@maquina:/repositorio`
-* http(s): `git clone https://url.com/repositorio`
+* http(s): `git clone http(s)://url.com/repositorio`
